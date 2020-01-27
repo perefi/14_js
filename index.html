@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>document_js</title>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    
+$(document).ready(function(){
+  $("h1").click(function(){
+    $("img").animate({right: "-400px"});
+  });
+});
+  </script>
+     <style type="text/css">
+img{
+position:absolute;
+    z-index:-5;
+    right: 80%;
+      }
+    </style>
+</head>
+    <body>
+        <h1>Run unicorn!</h1>
+        <img src="img/giphy.gif" alt="">
+    </body>
+</html>
+
+
+
+
+
+
+
